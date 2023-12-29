@@ -1,13 +1,12 @@
-// JavaScript for real-time clock
-function updateTime(elementId, timezone) {
-    const element = document.getElementById(elementId);
-    const options = { timeZone: timezone, hour12: false, hour: 'numeric', minute: 'numeric' };
-    const timeString = new Date().toLocaleTimeString('en-US', options);
-    element.textContent = `${elementId === 'singapore-time' ? '🕒' : '🕐'} ${elementId === 'singapore-time' ? 'Singapore Time' : 'India Time'}: ${timeString}`;
+
+function displayLocationInfo() {
+    const countryTimezoneElement = document.getElementById('country-timezone');
+    const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const userCountry = Intl.DateTimeFormat(undefined, {timeZone: userTimezone}).resolvedOptions().timeZone;
+    countryTimezoneElement.textContent = `Location: ${userCountry}, Timezone: ${userTimezone}`;
 }
 
-// Update time every second
-setInterval(() => {
-    updateTime('singapore-time', 'Asia/Singapore');
-    updateTime('india-time', 'Asia/Kolkata');
-}, 1000);
+// Call the function when the page loads
+window.onload = function() {
+    displayLocationInfo();
+};
