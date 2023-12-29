@@ -1,9 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 20% 0 0 0; /* Add top padding to push content down */
+    padding: 20px 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
-    background-image: url("https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg");
+    background-image: url("https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg"); 
     background-size: cover;
     background-position: center;
     color: #fff; /* Set text color to white */
@@ -43,9 +43,12 @@ body {
 }
 
 .profile-container {
+    position: fixed;
+    top: 0;
+    right: 20px; /* Adjust the right spacing as needed */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content horizontally */
+    align-items: flex-end; /* Align content to the end (right) */
 }
 
 .profile-image img {
@@ -57,5 +60,6 @@ body {
 
 .location-info {
     font-size: 1.2em; /* Increase font size */
-    text-align: center; /* Center the text horizontally */
+    text-align: right; /* Align text to the right */
+    margin-top: 10px; /* Add some top margin for separation */
 }
