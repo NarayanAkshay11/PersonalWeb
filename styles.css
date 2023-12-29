@@ -3,8 +3,10 @@ body {
     margin: 0;
     padding: 20px 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
-    background-color: #fff; /* Set background color to plain white */
     color: #000; /* Set text color to black */
+    background: url("https://coolbackgrounds.io/images/backgrounds/white/white-unsplash-9d0375d2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
 }
 h1 {
     font-family: "Sofia", sans-serif;
