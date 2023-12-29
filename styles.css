@@ -17,6 +17,7 @@ body {
 
 .centered-paragraph p {
     font-size: 18px;
+    font-family: "Lora", sans-serif;
     display: inline-block;
     text-align: left; /* Reset text alignment within the paragraph */
 }
