@@ -48,6 +48,9 @@ h1 {
 }
 
 .vertical-menu a {
+    font-family: "Lora", sans-serif;
+    
+    text-shadow: 3px 3px 3px #ababab;
     text-decoration: none;
     color: #000; /* Set link color to black */
     font-size: 1.8em; /* Increase font size */
