@@ -10,6 +10,7 @@ body {
 }
 .centered-paragraph {
     text-align: center;
+    font-size: 30px;
     max-width: 600px; /* Adjust the maximum width as needed */
     margin: 0 auto; /* This centers the container horizontally */
 }
