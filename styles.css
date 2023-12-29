@@ -75,8 +75,8 @@ body.dark-mode {
 }
 
 .profile-image img {
-    width: 50px; /* Set the width of the image */
-    height: 50px; /* Set the height of the image */
+    width: 10px; /* Set the width of the image */
+    height: 10px; /* Set the height of the image */
     border-radius: 50%; /* Make the image round */
     margin-top: 20px; /* Add some top margin for separation */
 }
