@@ -48,15 +48,6 @@ body {
     align-items: center; /* Center the content horizontally */
 }
 
-.profile-image {
-    position: relative;
-    margin-bottom: 10px;
-}
-
-.profile-image img {
-    width: 150px; /* Adjust the size of the image as needed */
-    border-radius: 50%;
-}
 .location-info {
     font-size: 1.2em; /* Increase font size */
     text-align: center; /* Center the text horizontally */
@@ -71,5 +62,7 @@ body {
 
 .profile-image img {
     position: relative; /* Set the image position to relative */
+    width: 150px; /* Adjust the size of the image as needed */
+    border-radius: 50%;
     z-index: 3; /* Ensure the image appears above the yellow circle and text */
 }
