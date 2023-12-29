@@ -9,12 +9,12 @@ body {
     
 }
 p {
-    font-size: 15px; /* Adjust the font size as needed */
+    font-size: 20px; /* Adjust the font size as needed */
     line-height: 1.5; /* Adjust the line height as needed */
     color: #000; /* Adjust the text color as needed */
     margin-bottom: 10px; /* Adjust the bottom margin as needed */
-    left:25px;
-    right: 25px;
+    margin-left: 25px;  /* Adjust the left margin as needed */
+    margin-right: 25px;
 }
 h1 {
     font-family: "Sofia", sans-serif;
