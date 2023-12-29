@@ -11,7 +11,7 @@
 <body>
     <div class="menu-container">
         <ul class="vertical-menu">
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Resume</a></li>
@@ -20,11 +20,12 @@
     </div>
 
     <div class="header-container">
-        <!-- Your header content goes here -->
+        <img src="sun-icon.png" alt="Sun Icon" class="mode-icon" id="light-mode" onclick="toggleMode()">
+        <img src="moon-icon.png" alt="Moon Icon" class="mode-icon" id="dark-mode" onclick="toggleMode()">
     </div>
 
     <div class="profile-container">
-        <img src="Screenshot 2023-05-19 220240.png" alt="Your Name">
+        <img src="Screenshot 2023-05-19 220240.png" alt="Akshay">
         <div class="location-info">
             <p id="current-time"></p>
         </div>
@@ -36,3 +37,4 @@
 </body>
 
 </html>
+
