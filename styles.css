@@ -46,20 +46,18 @@ h1 {
 .vertical-menu li {
     margin-bottom: 45px;
 }
-
 .vertical-menu a {
     font-family: "Lora", sans-serif;
-    
-    text-shadow: 3px 3px 3px #ababab;
     text-decoration: none;
-    color: #000; /* Set link color to black */
-    font-size: 1.8em; /* Increase font size */
+    color: #808080; /* Light grey color for menu items */
+    font-size: 1.8em;
 }
 
 .vertical-menu a.active {
-    font-weight: bold; /* Set the active page font weight to bold */
+    font-family: "Lora", sans-serif;
+    font-weight: bold;
+    color: #000; /* Color for the active menu item */
 }
-
 .header-container {
     position: fixed;
     top: 0;
