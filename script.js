@@ -6,6 +6,11 @@ function displayCurrentTime() {
     currentTimeElement.textContent = `Current Time: ${hours}:${minutes}`;
 }
 
+function toggleMode() {
+    const body = document.body;
+    body.classList.toggle("dark-mode");
+}
+
 window.onload = function() {
     displayCurrentTime();
 };
