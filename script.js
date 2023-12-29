@@ -1,12 +1,20 @@
 
 function displayLocationInfo() {
     const countryTimezoneElement = document.getElementById('country-timezone');
-    const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    const userCountry = Intl.DateTimeFormat(undefined, {timeZone: userTimezone}).resolvedOptions().timeZone;
-    countryTimezoneElement.textContent = `Location: ${userCountry}, Timezone: ${userTimezone}`;
+    
+    
+    const userCountry = new Intl.DateTimeFormat(undefined, {hour12: false}).resolvedOptions().timeZone;
+    
+    
+    const currentTime = new Date();
+    const hours = currentTime.getHours().toString().padStart(2, '0');
+    const minutes = currentTime.getMinutes().toString().padStart(2, '0');
+    
+    
+    countryTimezoneElement.textContent = `Country: ${userCountry}, Current Time: ${hours}:${minutes}`;
 }
 
-// Call the function when the page loads
+
 window.onload = function() {
     displayLocationInfo();
 };
