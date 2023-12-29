@@ -57,20 +57,19 @@ body {
     width: 150px; /* Adjust the size of the image as needed */
     border-radius: 50%;
 }
-
-.yellow-circle {
-    background-color: #ffcc00; /* Yellow color */
-    border-radius: 50%;
-    width: 160px; /* Adjust the size of the circle */
-    height: 160px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; /* Place the circle behind the image */
-}
-
 .location-info {
     font-size: 1.2em; /* Increase font size */
     text-align: center; /* Center the text horizontally */
+    position: relative;
+    z-index: 2; /* Ensure the info appears above the yellow circle */
+}
+
+.yellow-circle {
+    /* ... (previous styles) */
+    z-index: 1; /* Place the yellow circle behind the image and text */
+}
+
+.profile-image img {
+    position: relative; /* Set the image position to relative */
+    z-index: 3; /* Ensure the image appears above the yellow circle and text */
 }
