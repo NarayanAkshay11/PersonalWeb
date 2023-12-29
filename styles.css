@@ -13,6 +13,8 @@ p {
     line-height: 1.5; /* Adjust the line height as needed */
     color: #000; /* Adjust the text color as needed */
     margin-bottom: 10px; /* Adjust the bottom margin as needed */
+    left:25px;
+    right: 25px;
 }
 h1 {
     font-family: "Sofia", sans-serif;
