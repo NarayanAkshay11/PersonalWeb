@@ -28,8 +28,8 @@ h1 {
 }
 .menu-container {
     position: fixed;
-    top: 100px; /* Adjust top spacing as needed */
-    left: 20px; /* Adjust left spacing as needed */
+    top: 110px; /* Adjust top spacing as needed */
+    left: 19px; /* Adjust left spacing as needed */
     padding: 15px;
     z-index: 2; /* Ensure the menu appears above other elements */
 }
@@ -41,7 +41,7 @@ h1 {
 }
 
 .vertical-menu li {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .vertical-menu a {
