@@ -8,6 +8,14 @@ body {
     background-size: cover;
     
 }
+
+h1 {
+    font-family: "Sofia", sans-serif;
+    
+    text-shadow: 3px 3px 3px #ababab;
+    text-align: center;
+    
+}
 p {
     font-size: 20px; /* Adjust the font size as needed */
     line-height: 1.5; /* Adjust the line height as needed */
@@ -15,13 +23,6 @@ p {
     margin-bottom: 10px; /* Adjust the bottom margin as needed */
     margin-left: 200px;  /* Adjust the left margin as needed */
     margin-right: 150px;
-}
-h1 {
-    font-family: "Sofia", sans-serif;
-    
-    text-shadow: 3px 3px 3px #ababab;
-    text-align: center;
-    
 }
 
 .first-name {
