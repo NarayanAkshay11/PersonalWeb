@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20% 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
-    background-image: url('your-background-image.jpg'); /* Add the URL of your background image */
+    background-image: url("https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg");
     background-size: cover;
     background-position: center;
     color: #fff; /* Set text color to white */
