@@ -3,9 +3,10 @@ body {
     margin: 0;
     padding: 20% 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
-    background-image: url("https://t3.ftcdn.net/jpg/02/06/19/40/360_F_206194051_eGGpnQKXRH38IbrRnk3bfefMlQkoc947.jpg");
+    background-image: url("https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg");
     background-size: cover;
     background-position: center;
+    color: #fff; /* Set text color to white */
 }
 
 .menu-container {
@@ -28,8 +29,8 @@ body {
 
 .vertical-menu a {
     text-decoration: none;
-    color: #000;
-    font-size: 1.2em;
+    color: #fff; /* Set link color to white */
+    font-size: 1.5em; /* Increase font size */
 }
 
 .header-container {
@@ -57,33 +58,19 @@ body {
     border-radius: 50%;
 }
 
-.wobbly-animation {
-    /* Add your wobbly animation styles here */
+.yellow-circle {
+    background-color: #ffcc00; /* Yellow color */
+    border-radius: 50%;
+    width: 160px; /* Adjust the size of the circle */
+    height: 160px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 150px;
-    height: 150px;
-    background: linear-gradient(to right, #ff3399, #66ccff);
-    border-radius: 50%;
-    opacity: 0.5;
-    animation: wobble 2s infinite ease-in-out;
-}
-
-@keyframes wobble {
-    0%, 100% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    25%, 75% {
-        transform: translate(-50%, -50%) rotate(10deg);
-    }
-    50% {
-        transform: translate(-50%, -50%) rotate(-10deg);
-    }
+    z-index: 1; /* Place the circle behind the image */
 }
 
 .location-info {
-    font-size: 0.9em;
+    font-size: 1.2em; /* Increase font size */
     text-align: center; /* Center the text horizontally */
 }
