@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20% 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
-    background-image: url("https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg");
+    background-image: url("https://img.freepik.com/free-vector/circles-background-dark-tones_60389-166.jpg"); 
     background-size: cover;
     background-position: center;
     color: #fff; /* Set text color to white */
@@ -48,21 +48,29 @@ body {
     align-items: center; /* Center the content horizontally */
 }
 
+.yellow-circle {
+    background-color: #ffcc00; /* Yellow color */
+    border-radius: 50%;
+    width: 160px; /* Adjust the size of the circle */
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Place the circle behind the image and text */
+}
+
+.profile-image img {
+    width: 120px; /* Set the width of the image */
+    height: 120px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image round */
+    position: relative; /* Set the image position to relative */
+    z-index: 3; /* Ensure the image appears above the yellow circle and text */
+}
+
 .location-info {
     font-size: 1.2em; /* Increase font size */
     text-align: center; /* Center the text horizontally */
     position: relative;
     z-index: 2; /* Ensure the info appears above the yellow circle */
-}
-
-.yellow-circle {
-    /* ... (previous styles) */
-    z-index: 1; /* Place the yellow circle behind the image and text */
-}
-
-.profile-image img {
-    position: relative; /* Set the image position to relative */
-    width: 150px; /* Adjust the size of the image as needed */
-    border-radius: 50%;
-    z-index: 3; /* Ensure the image appears above the yellow circle and text */
 }
