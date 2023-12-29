@@ -22,8 +22,8 @@ body.dark-mode {
 
 .menu-container {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 20px; /* Adjust top spacing as needed */
+    left: 20px; /* Adjust left spacing as needed */
     padding: 15px;
     z-index: 2; /* Ensure the menu appears above other elements */
 }
