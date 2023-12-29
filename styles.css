@@ -13,10 +13,12 @@ h1 {
 
 .first-name {
     font-weight: bold;
+    color: #000;
 }
 
 .last-name {
     font-weight: 600;
+    color: #808080;
 }
 .menu-container {
     position: fixed;
