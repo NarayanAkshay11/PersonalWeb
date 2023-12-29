@@ -1,93 +1,94 @@
 body {
-    font-family: 'Allenoire', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 20px 0 0 0;
-    overflow-x: hidden;
-    background: rgba(255, 255, 255, 0.8) url('your-image-url.jpg') no-repeat center center fixed;
-    background-size: cover;
+    padding: 20px 0 0 0; /* Add top padding to push content down */
+    overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
     color: #000; /* Set text color to black */
+    background: rgba(255, 255, 255, 0.4) url("https://t3.ftcdn.net/jpg/03/88/40/56/360_F_388405670_0CyoZYAqHUGJkwxWxq6FquVGjEv4UJ5K.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
 }
-
-h1, p {
+h1 {
+    font-family: "Sofia", sans-serif;
+    
+    text-shadow: 3px 3px 3px #ababab;
     text-align: center;
+    
 }
 
 .first-name {
+    font-size: 40px;
     font-weight: bold;
     color: #000;
 }
 
 .last-name {
     font-weight: 600;
-    color: #808080;
+    font-size: 35px;
+    color: #404040 !important;
 }
-
 .subtitle {
-    font-family: 'Times New Roman', serif;
-    color: #333;
-    font-size: 1.2em;
+    font-family: 'Times New Roman', serif; /* Different font for subtitle */
+    color: #333; /* Different color for subtitle */
+    text-align: center;
+    font-size: 1.2em; /* Smaller font size for subtitle */
 }
-
-.content-container {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-}
-
 .menu-container {
-    background: transparent;
+    position: fixed;
+    top: 110px; /* Adjust top spacing as needed */
+    left: 19px; /* Adjust left spacing as needed */
+    padding: 15px;
+    z-index: 2; /* Ensure the menu appears above other elements */
 }
 
+.vertical-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-menu li {
+    margin-bottom: 45px;
+}
 .vertical-menu a {
+    font-family: "Lora", sans-serif;
     text-decoration: none;
-    color: #808080;
+    color: #303030; /* Light grey color for menu items */
     font-size: 1.8em;
 }
 
 .vertical-menu a.active {
+    font-family: "Lora", sans-serif;
     font-weight: bold;
-    color: #000;
+    color: #000; /* Color for the active menu item */
 }
-
-.text-content {
-    flex-grow: 1;
-    padding: 0 20px; /* Adjust the spacing as needed */
-}
-
-.centered-paragraph p,
-.about-me p,
-.internship-info p {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    color: #333;
-}
-
 .header-container {
     position: fixed;
     top: 0;
     right: 0;
     padding: 15px;
     text-align: right;
-    z-index: 1;
-    background: transparent;
+    z-index: 1; /* Ensure the header appears above other elements */
 }
 
 .profile-container {
     position: fixed;
-    top: 0;
-    right: 20px;
+    top: 100px;
+    right: 40px; /* Adjust the right spacing as needed */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center the content horizontally */
 }
 
 .profile-image img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-top: 20px;
+    width: 80px; /* Set the width of the image */
+    height: 80px; /* Set the height of the image */
+    border-radius: 50%; /* Make the image round */
+    margin-top: 20px; /* Add some top margin for separation */
 }
 
 .location-info {
-    font-size: 1.2em;
+    font-size: 1.2em; /* Increase font size */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 10px; /* Add some top margin for separation */
 }
