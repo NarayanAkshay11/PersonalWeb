@@ -6,7 +6,18 @@ body {
     background-color: #fff; /* Set background color to plain white */
     color: #000; /* Set text color to black */
 }
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.first-name {
+    font-weight: bold;
+}
+
+.last-name {
+    font-weight: 600;
+}
 .menu-container {
     position: fixed;
     top: 100px; /* Adjust top spacing as needed */
