@@ -3,8 +3,21 @@ body {
     margin: 0;
     padding: 20px 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
-    background-color: #fff; /* Set background color to plain white */
-    color: #000; /* Set text color to black */
+    background-color: var(--background-light); /* Set background color using CSS variable */
+    color: var(--text-dark); /* Set text color using CSS variable */
+    transition: background-color 0.5s, color 0.5s; /* Smooth transition effect */
+}
+
+/* Define CSS variables for light mode */
+:root {
+    --background-light: #fff;
+    --text-dark: #000;
+}
+
+/* Define CSS variables for dark mode */
+body.dark-mode {
+    --background-light: #000;
+    --text-dark: #fff;
 }
 
 .menu-container {
@@ -27,7 +40,7 @@ body {
 
 .vertical-menu a {
     text-decoration: none;
-    color: #000; /* Set link color to black */
+    color: var(--text-dark); /* Set link color using CSS variable */
     font-size: 1.8em; /* Increase font size */
 }
 
@@ -58,6 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center the content horizontally */
+    color: var(--text-dark); /* Set text color using CSS variable */
 }
 
 .profile-image img {
@@ -70,4 +84,5 @@ body {
 .location-info {
     font-size: 1.2em; /* Increase font size */
     text-align: center; /* Center the text horizontally */
+    margin-top: 10px; /* Add some top margin for separation */
 }
