@@ -49,7 +49,7 @@ h1 {
 .vertical-menu a {
     font-family: "Lora", sans-serif;
     text-decoration: none;
-    color: #000; /* Light grey color for menu items */
+    color: #303030; /* Light grey color for menu items */
     font-size: 1.8em;
 }
 
