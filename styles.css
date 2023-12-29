@@ -1,8 +1,11 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20% 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
+    background-image: url('your-background-image.jpg'); /* Add the URL of your background image */
+    background-size: cover;
+    background-position: center;
 }
 
 .menu-container {
@@ -56,6 +59,28 @@ body {
 
 .wobbly-animation {
     /* Add your wobbly animation styles here */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right, #ff3399, #66ccff);
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: wobble 2s infinite ease-in-out;
+}
+
+@keyframes wobble {
+    0%, 100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25%, 75% {
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(-10deg);
+    }
 }
 
 .location-info {
