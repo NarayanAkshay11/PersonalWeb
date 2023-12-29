@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 20% 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
-    background-image: url('your-background-image.jpg'); /* Add the URL of your background image */
+    background-image: url("https://t3.ftcdn.net/jpg/02/06/19/40/360_F_206194051_eGGpnQKXRH38IbrRnk3bfefMlQkoc947.jpg");
     background-size: cover;
     background-position: center;
 }
