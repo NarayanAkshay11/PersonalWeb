@@ -4,7 +4,7 @@ body {
     padding: 20px 0 0 0; /* Add top padding to push content down */
     overflow-x: hidden; /* Prevent horizontal scrolling on smaller screens */
     color: #000; /* Set text color to black */
-    background: rgba(255, 255, 255, 0.8) url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/lightgreypolkadots-05-091815-637_SB_PM.jpg") no-repeat center center fixed;
+    background: rgba(255, 255, 255, 0.4) url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/lightgreypolkadots-05-091815-637_SB_PM.jpg") no-repeat center center fixed;
     background-size: cover;
     
 }
