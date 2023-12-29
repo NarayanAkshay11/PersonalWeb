@@ -8,6 +8,12 @@ body {
     background-size: cover;
     
 }
+p {
+    font-size: 15px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+    color: #000; /* Adjust the text color as needed */
+    margin-bottom: 10px; /* Adjust the bottom margin as needed */
+}
 h1 {
     font-family: "Sofia", sans-serif;
     
