@@ -8,6 +8,18 @@ body {
     background-size: cover;
     
 }
+.curved-box {
+    display: flex;;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #E65E00;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.curved-box h2 {
+    margin-bottom: 10px; /* Add some space between the heading and content */
+}
 .centered-paragraph {
     text-align: center;
     
