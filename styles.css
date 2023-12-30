@@ -19,6 +19,8 @@ body {
     font-size: 22px;
     font-family: "Lora", sans-serif;
     display: inline-block;
+    letter-spacing: 2px;
+    line-height: 2.0;
     text-align: left; /* Reset text alignment within the paragraph */
 }
 
