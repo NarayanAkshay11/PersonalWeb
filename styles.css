@@ -23,6 +23,15 @@ body {
     line-height: 2.0;
     text-align: left; /* Reset text alignment within the paragraph */
 }
+.linked-word {
+    color: #D20049; /* Set the color for the linked word */
+    text-decoration: underline; /* Underline the linked word */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.linked-word:hover {
+    color: #E9A40F; /* Change color on hover, if desired */
+}
 
 h1 {
     font-family: "Libre Baskerville", sans-serif;
