@@ -136,7 +136,8 @@ article {
 }
 
 .vertical-menu a.active {
-    font-family: "Lora", sans-serif;
+    font-family: "Gulzar", sans-serif;
+    text-decoration: none;
     font-size: 1.8em;
     color: #17202A; /* Color for the active menu item */
 }
