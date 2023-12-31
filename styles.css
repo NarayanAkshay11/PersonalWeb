@@ -49,6 +49,7 @@ body {
 .centered-paragraph li {
     margin-bottom: 10px; /* Adjust the spacing between list items */
     text-align:left;
+    font-family: "Lora", sans-serif;
 }
 .linked-word {
     color: #D20049; /* Set the color for the linked word */
