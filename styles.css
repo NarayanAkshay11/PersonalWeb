@@ -41,6 +41,14 @@ body {
     line-height: 1.5;
     text-align: left; /* Reset text alignment within the paragraph */
 }
+.centered-paragraph ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.centered-paragraph li {
+    margin-bottom: 10px; /* Adjust the spacing between list items */
+}
 .linked-word {
     color: #D20049; /* Set the color for the linked word */
     text-decoration: underline; /* Underline the linked word */
