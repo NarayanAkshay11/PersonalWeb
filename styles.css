@@ -58,9 +58,14 @@ h1 {
     text-align: center;
     
 }
+h2{
+    font-family: "Libre Baskerville", sans-serif;
+    text-align: left;
+}
+    
 h3 {
     font-family: "Libre Baskerville", sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 
