@@ -9,12 +9,12 @@ body {
     
 }
 .box-container {
-    margin-left: 50px; /* Adjust the value to add more space to the left */
+    margin-left: 200px; /* Adjust the value to add more space to the left */
 }
 
 .centered-box {
     width: auto; /* Set the fixed width of the box */
-    max-width: 60%;
+    max-width: 50%;
     border-radius: 15px;
     background-color: #3498db;
     color: #ffffff;
