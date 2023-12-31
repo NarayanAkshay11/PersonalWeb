@@ -12,6 +12,8 @@ body {
 }
 .centered-box {
     position: centre;
+    align-items: center;
+    justify-content: center;
     width: 300px; /* Set the fixed width of the box */
     border-radius: 15px;
     background-color: #3498db;
