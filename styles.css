@@ -131,14 +131,14 @@ article {
 .vertical-menu a {
     font-family: "Gulzar", sans-serif;
     text-decoration: none;
-    color: #303030; /* Light grey color for menu items */
+    color: #283747; /* Light grey color for menu items */
     font-size: 1.8em;
 }
 
 .vertical-menu a.active {
     font-family: "Lora", sans-serif;
-    font-weight: bold;
-    color: #000; /* Color for the active menu item */
+    
+    color: #17202A; /* Color for the active menu item */
 }
 .header-container {
     position: fixed;
