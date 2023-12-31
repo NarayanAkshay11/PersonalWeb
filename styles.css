@@ -15,10 +15,10 @@ body {
 .centered-box {
     width: auto; /* Set the fixed width of the box */
     max-width: 70%;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #3498db;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
 }
