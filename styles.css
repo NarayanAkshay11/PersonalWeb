@@ -77,16 +77,20 @@ h3 {
     font-family: "Libre Baskerville", sans-serif;
     text-align: center;
 }
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 20px auto;
+}
 .card {
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
     margin: 10px;
-    position:center;
-    display:flex;
 }
-
 article {
     padding: 20px;
 }
