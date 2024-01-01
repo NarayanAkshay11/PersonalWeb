@@ -72,12 +72,12 @@ h2{
     font-family: "Libre Baskerville", sans-serif;
     text-align: center;
 }
-.a{
+a{
     color:FFFFFD;
     text-decoration: underline; /* Underline the linked word */
     cursor: pointer;
 }
-.a:hover{
+a:hover{
     color: #00EBC4;
 }
 h3 {
